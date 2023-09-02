@@ -86,7 +86,7 @@ ol {
   flex-direction: row;
   align-items: center;
   width: fit-content;
-  cursor: text;
+  cursor: pointer;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -271,11 +271,12 @@ ol {
 
 .content__video-card-description {
   font-weight: 400;
-  line-height: 16.2px
+  line-height: 16.2px;
 }
 
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
   object-fit: cover;
+  object-position: center;
 }
